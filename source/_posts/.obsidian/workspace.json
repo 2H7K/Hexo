@@ -11,11 +11,9 @@
             "id": "fbaa3484048f8a80",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "240916_hexo +github +github actions.md",
-                "mode": "source",
-                "source": false
+                "file": "A.Attachment/CleanShot 2024-09-16 at 16.55.39@2x.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "240916_hexo +github +github actions.md",
+                "file": "A.Attachment/CleanShot 2024-09-16 at 16.55.39@2x.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "240916_hexo +github +github actions.md",
+                "file": "A.Attachment/CleanShot 2024-09-16 at 16.55.39@2x.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "240916_hexo +github +github actions.md"
+                "file": "A.Attachment/CleanShot 2024-09-16 at 16.55.39@2x.png"
               }
             }
           }
@@ -148,17 +146,18 @@
   },
   "active": "fbaa3484048f8a80",
   "lastOpenFiles": [
+    "hello-world.md",
+    "将noteplan笔记打印为 PDF.md",
+    "240916_hexo +github +github actions.md",
     "A.Attachment/CleanShot 2024-09-16 at 16.55.39@2x.png",
     "A.Attachment/e2877b6568d331e766a56644103cb2c5.png",
     "CleanShot 2024-09-16 at 16.55.39@2x.png",
-    "240916_hexo +github +github actions.md",
     "A.Attachment/d3fd37c13428e8b4f53bce14f43a3739.png",
     "A.Attachment/c9f2192bc53df8bdc184ff35921ae698.png",
     "A.Attachment/b25888e0374226c93dd52f2b8096ad74.png",
     "A.Attachment/b73b4c42ad88471563ed14b9031e57c2.png",
     "A.Attachment/13712a399c79250ce6e50ba6103aa98c.png",
     "A.Attachment/969fb2dc66083ba53ca7d19d5a3a675d.png",
-    "A.Attachment/764f0296892d20d0a979154f07f4e4e7.png",
-    "A.Attachment/14af1574a42c12ae4abf6784454d98ef.png"
+    "A.Attachment/764f0296892d20d0a979154f07f4e4e7.png"
   ]
 }
