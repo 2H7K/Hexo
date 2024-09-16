@@ -1,4 +1,5 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "A.Attachment"
+  "attachmentFolderPath": "A.Attachment",
+  "newLinkFormat": "absolute"
 }
