@@ -3,12 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
+# Site
+title: 2H7K
+subtitle: '众品'
+description: '人即是人，物即是物，人物即时人物'
+keywords: 可爱
+author: LINK
+language: zh-CN
 timezone: ''
 
 # URL
@@ -41,7 +42,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: ture
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
