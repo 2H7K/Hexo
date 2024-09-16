@@ -6,6 +6,7 @@ tags:
   - N笔记
 title: 240916_hexo +github +github actions
 ---
+![[CleanShot 2024-09-16 at 16.55.39@2x.png]]
 
 # 1.安装Node.js、git
 1. 打开 Mac 自带的终端，在根目录下，通过Homebrew安装 Node.js、git、hexo
