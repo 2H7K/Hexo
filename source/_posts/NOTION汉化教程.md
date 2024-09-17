@@ -12,5 +12,5 @@ title: NOTION汉化教程
 # Notion 笔记Mac及windows客户端汉化
 
 
-![](../images/16bb168ed0d9105e70a0c5f6508def02.png)
+![](images/16bb168ed0d9105e70a0c5f6508def02.png)
 
