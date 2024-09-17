@@ -10,4 +10,4 @@ title: NOTION汉化教程
 ---
 **更新时间：20230415，请酌情引用**
 # Notion 笔记Mac及windows客户端汉化
-![测999](A.Attachment/16bb168ed0d9105e70a0c5f6508def02.png)
+![测999](16bb168ed0d9105e70a0c5f6508def02.png)
