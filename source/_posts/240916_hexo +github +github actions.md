@@ -6,7 +6,7 @@ tags:
   - N笔记
 title: 240916_hexo +github +github actions
 ---
-![[A.Attachment/CleanShot 2024-09-16 at 16.55.39@2x.png]]
+![[images/CleanShot 2024-09-16 at 16.55.39@2x.png]]
 
 # 1.安装Node.js、git
 1. 打开 Mac 自带的终端，在根目录下，通过Homebrew安装 Node.js、git、hexo
@@ -69,20 +69,20 @@ git push -u origin main
 # 4、新建token
 
  在账号的个人`setting`中生成设置`token`
-   ![](A.Attachment/969fb2dc66083ba53ca7d19d5a3a675d.png)
-![](A.Attachment/15470c726c7fb39dc8396fd8fa4afeef.png)
-![](A.Attachment/1b304cc9cc90407f5875f8235acd9316.png)
-![](A.Attachment/d3fd37c13428e8b4f53bce14f43a3739.png)
-![](A.Attachment/13712a399c79250ce6e50ba6103aa98c.png)
+   ![](images/969fb2dc66083ba53ca7d19d5a3a675d.png)
+![](images/15470c726c7fb39dc8396fd8fa4afeef.png)
+![](images/1b304cc9cc90407f5875f8235acd9316.png)
+![](images/d3fd37c13428e8b4f53bce14f43a3739.png)
+![](images/13712a399c79250ce6e50ba6103aa98c.png)
 或者选repo和workflow
-![](A.Attachment/7d2ff0e8175f8cfb232f91edc0d66c37.png)
+![](images/7d2ff0e8175f8cfb232f91edc0d66c37.png)
 
 4. 生成的`token`设置到
 并将它设置到项目仓库的 `secrets` 中，以方便我们在 `actions` 中调用，并保证敏感信息不暴露给其他用户：
 
 
-![](A.Attachment/14af1574a42c12ae4abf6784454d98ef.png)
-![](A.Attachment/764f0296892d20d0a979154f07f4e4e7.png)
+![](images/14af1574a42c12ae4abf6784454d98ef.png)
+![](images/764f0296892d20d0a979154f07f4e4e7.png)
 
 **远程仓库的配置基本完成，回到本地仓库。**
 
