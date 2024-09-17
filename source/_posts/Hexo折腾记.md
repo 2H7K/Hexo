@@ -1,12 +1,12 @@
 ---
-date: 2024-09-16-星期一-10:56:42
-updated: 2024-09-18-星期三-00:09:14
-ID: 20240916105642
+title: Hexo折腾记
+date: 2024-09-18
+update: 
 tags:
-  - N笔记
-title: 240916_hexo +github +github actions
+  - Hexo
 ---
-# 记录
+# 前言
+无非是要想要个人的网站，服务器和wordpress太复杂，瞎折腾Github.
 
 # 1.安装Node.js、git
 1. 打开 Mac 自带的终端，在根目录下，通过Homebrew安装 Node.js、git、hexo
@@ -47,16 +47,12 @@ _config.yml: 博客的核心配置文件（设置主体、标题等属性）
 ```bash
 #初始化
 git init
-
 #主分支更名（可选）
 git branch -m main
-
 #将本地仓库与远程仓库连接起来
 git remote add origin https://github.com/2H7K/Hexo.git
-
 #暂存所做的修改；这里的 `.` 表示 `--all` 即所有文件
 git add --all
-
 # 提交代码，其中引号内的内容可以自行更改作为提交记录
 git commit -m ‘first git'
 
@@ -64,20 +60,15 @@ git commit -m ‘first git'
 git push -u origin main
 ```
 
-
-
 # 4、新建token
 
  在账号的个人`setting`中生成设置`token`
-   ![](A.Attachment/969fb2dc66083ba53ca7d19d5a3a675d.png)
-![](A.Attachment/15470c726c7fb39dc8396fd8fa4afeef.png)
-![](A.Attachment/1b304cc9cc90407f5875f8235acd9316.png)
-![](A.Attachment/d3fd37c13428e8b4f53bce14f43a3739.png)
-![](A.Attachment/13712a399c79250ce6e50ba6103aa98c.png)
-或者选repo和workflow
-![](A.Attachment/7d2ff0e8175f8cfb232f91edc0d66c37.png)
-
-4. 生成的`token`设置到
+   ![200](A.Attachment/969fb2dc66083ba53ca7d19d5a3a675d.png)
+![200](A.Attachment/15470c726c7fb39dc8396fd8fa4afeef.png)
+![200](A.Attachment/1b304cc9cc90407f5875f8235acd9316.png)
+![200](A.Attachment/d3fd37c13428e8b4f53bce14f43a3739.png)
+![200](A.Attachment/13712a399c79250ce6e50ba6103aa98c.png)
+生成的`token`设置到
 并将它设置到项目仓库的 `secrets` 中，以方便我们在 `actions` 中调用，并保证敏感信息不暴露给其他用户：
 
 
