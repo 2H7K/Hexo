@@ -11,4 +11,7 @@ title: NOTION汉化教程
 **更新时间：20230415，请酌情引用**
 # Notion 笔记Mac及windows客户端汉化
 
-![](_posts/images/16bb168ed0d9105e70a0c5f6508def02.png)
+
+![1](../images/16bb168ed0d9105e70a0c5f6508def02.png)
+![2](NOTION汉化教程/93adb77f1068e8e6060262b6434a626d.png)
+![3](<2061b1854259fd06a5f35a1d5bdb36a2.png>)
