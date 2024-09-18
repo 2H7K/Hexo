@@ -1,5 +1,5 @@
 ---
-title: Hexo折腾记
+title: Hexo折腾记(hexo +github +github actions 搭建个人博客)
 date: 2024-09-18
 update: 
 tags:
