@@ -7,7 +7,6 @@ tags:
   - hexo
   - github
   - 博客
-status: Doing
 ---
 
 # 思路
