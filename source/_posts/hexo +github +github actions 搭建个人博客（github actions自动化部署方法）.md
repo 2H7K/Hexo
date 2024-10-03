@@ -69,17 +69,17 @@ git push -u origin main
 ```
 # 4.新建token
  在账号的个人`setting`中生成设置`token`
-   ![](A.Attachment/969fb2dc66083ba53ca7d19d5a3a675d.png)
-![](A.Attachment/15470c726c7fb39dc8396fd8fa4afeef.png)
-![](A.Attachment/1b304cc9cc90407f5875f8235acd9316.png)
-![](A.Attachment/d3fd37c13428e8b4f53bce14f43a3739.png)
-![](A.Attachment/13712a399c79250ce6e50ba6103aa98c.png)
+   ![](969fb2dc66083ba53ca7d19d5a3a675d.png)
+![](15470c726c7fb39dc8396fd8fa4afeef.png)
+![](1b304cc9cc90407f5875f8235acd9316.png)
+![](d3fd37c13428e8b4f53bce14f43a3739.png)
+![](13712a399c79250ce6e50ba6103aa98c.png)
 或者选repo和workflow
-![](A.Attachment/7d2ff0e8175f8cfb232f91edc0d66c37.png)
+![](7d2ff0e8175f8cfb232f91edc0d66c37.png)
 4. 生成的`token`设置到
 并将它设置到项目仓库的 `secrets` 中，以方便我们在 `actions` 中调用，并保证敏感信息不暴露给其他用户：
-![](A.Attachment/14af1574a42c12ae4abf6784454d98ef.png)
-![](A.Attachment/764f0296892d20d0a979154f07f4e4e7.png)
+![](14af1574a42c12ae4abf6784454d98ef.png)
+![](764f0296892d20d0a979154f07f4e4e7.png)
 **远程仓库的配置基本完成，回到本地仓库。**
 # 5.修改_config.yml
 在_config.yml中修改deploy字段。指示Hexo在deploy时的推送地址。
@@ -189,7 +189,7 @@ source/_posts/
 方法2：官方文档
 资源（Asset）代表 `source` 文件夹中除了文章以外的所有文件，例如图片、CSS、JS 文件等。 比方说，如果你的Hexo项目中只有少量图片，那最简单的方法就是将它们放在 `source/images` 文件夹中。 然后通过类似于 `![](A.Attachment/b7e04c679d3e44ecdedaae989e49983f.jpg)` 的方法访问它们。
 obsidian中的设置
-![](A.Attachment/c68cc559e6565b48dffef275ca510542.png)
+![](c68cc559e6565b48dffef275ca510542.png)
 这样一来，部署的时候图片就不会不显示了，但是有个新的问题， 我在本地编辑md的时候无法预览图片怎么办。
 建议用VSCode下载插件vscode-hexo和Hexo Utils，随后在左边栏目就可以看到新Hexo Utils的新菜单，只要你的VSCode当前打开的文件夹是hexo的根目录，那么插件就会自动 识别到，当你对md文件使用“侧边预览”时，图片就正常显示了。
 
@@ -216,12 +216,12 @@ https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pag
 记录类型“CNAME”，
 记录值“username.github.io”，其他不用改，`username`为你的github账号名
 回到上面创建的username.github.io ，点击“Setting”进入设置页面
-![](A.Attachment/6ad4131233bec34e2ea76c2dfff68ac1.png)
-![](A.Attachment/8731f109e23b4a44a83faf7d48d8a49c.png)
+![](6ad4131233bec34e2ea76c2dfff68ac1.png)
+![](8731f109e23b4a44a83faf7d48d8a49c.png)
 
 在 GitHub Pages 的区域找到 Custom domain，在输入框里填入自己的域名，点击“save”，就完成了域名设置。现在输入自己的域名就能进入自己的博客页面了。
 
-![](A.Attachment/08601fdae26443cff4b888486abba033.png)
+![](08601fdae26443cff4b888486abba033.png)
 
 在Hexo文件夹内根目录，新建名为CNAME的文件，并输入你的域名`2h7k.com`
 
