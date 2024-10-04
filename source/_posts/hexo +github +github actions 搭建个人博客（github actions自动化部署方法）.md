@@ -1,7 +1,7 @@
 ---
 title: hexo +github +github actions 搭建个人博客（github actions自动化部署方法）
 date: 2024-09-16-星期一-10:56:42
-update: 2024-10-01-星期二-20:24:10
+updated: 2024-10-01-星期二-20:24:10
 ID: 20240916105642
 tags:
   - N笔记
