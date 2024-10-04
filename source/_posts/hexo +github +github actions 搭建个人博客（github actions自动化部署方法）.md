@@ -1,7 +1,7 @@
 ---
 title: hexo +github +github actions 搭建个人博客（github actions自动化部署方法）
 date: 2024-09-16-星期一-10:56:42
-updated: 2024-10-01-星期二-20:24:10
+updated: 2024-10-04-星期二-10:24:10
 ID: 20240916105642
 tags:
   - N笔记
@@ -222,7 +222,8 @@ https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pag
 
 ![](A.Attachment/08601fdae26443cff4b888486abba033.png)
 
-在Hexo文件夹内根目录，新建名为CNAME的文件，并输入你的域名`2h7k.com`
+在Hexo中的source文件夹中新建名为CNAME的文件，并输入你的域名`2h7k.com`
+（踩坑1：在Hexo的根目录下新建了CNAME文件，结果无法链接个人域名）
 
 ## 6. 配置中文
 在旧的文档中，关于语言的配置，默认是英文的。如果我们想把网站中由主题、 配置的菜单、侧栏等选项卡的语言改成中文，就需要修改 **Hexo** 的 `_congif.yml`，注意，这里要修改的不是 主题的配置文件。
