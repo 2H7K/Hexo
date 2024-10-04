@@ -211,6 +211,13 @@ git rm --cached <file>
 git rm -r --cached .
 ```
 ## 4.文章发布时间
+文章的YML格式，发布时间以date为主
+
+```
+date: 2024-08-31 02:32:10
+updated: 2024-10-04 11:33:08
+```
+
 ## 5.绑定自己的域名
 官方文档：
 https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site ：为 GitHub Pages 站点的自定义域名。
